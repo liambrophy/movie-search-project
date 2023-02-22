@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieSearch</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section id="navigation">
+        <nav>
+            <div class="nav__container">
+                <div class="nav__logo--container">
+                    <img src="./assets/film-reel-cut-productions-broadcast-post-production-the-north-4.png" alt="" class="nav__logo">
+                    <a href="" class="nav__logo--text">MovieSearch</a>
+                </div>
+                <ul class="nav__links--list">
+                    <li class="nav__link"><a href="" class="nav__link--anchor">Home</a></li>
+                    <li class="nav__link"><a href="" class="nav__link--anchor">About</a></li>
+                    <li class="nav__link"><a href="" class="nav__link--anchor nav__link--large">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <section id="landing">
+        <div class="container">
+            <div class="row">
+                <div class="search__wrapper">
+                    <h2 class="search__header">Tons of Movies at your fingertips!</h2>
+                    <input type="text" placeholder="Search for a Movie and press enter!" class="search" onchange="onSearchChange(event)">
+                </div> 
+                <div class="movies__container">
+                    <div class="movie">
+                        <img src="./assets/test__img.jpg" alt="" class="movie__img">
+                        <h4 class="movie__info">Title: Fast & Furious 6</h4>
+                        <h4 class="movie__info">Year: 2013</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./index.js"></script>
+</html>
+
+
